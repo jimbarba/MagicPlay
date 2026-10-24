@@ -1,42 +1,114 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MagicPlay</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a0d">
+  <meta name="description" content="MagicPlay brings live setlists, WAV backing tracks and MIDI control together in one Android app built for musicians on stage.">
+  <title>MagicPlay — Your Setlist. Your Show.</title>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-    <h1>MagicPlay</h1>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./" aria-label="MagicPlay home"><span class="brand-mark">M</span> MagicPlay</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#workflow">How it works</a>
+        <a href="support/">Support</a>
+        <a class="nav-cta" href="https://github.com/jimbarba/MagicPlay/releases/tag/1.0.0">Get the beta <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
-    <p><strong>Your setlist. Your show.</strong></p>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Made for the stage</span>
+          <h1>Your setlist.<br><span class="gradient-text">Your show.</span></h1>
+          <p class="lead">Keep your backing tracks, track levels and MIDI actions together. MagicPlay is a live-performance companion for musicians who want fewer things to manage on stage.</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://github.com/jimbarba/MagicPlay/releases/tag/1.0.0">Explore the Android beta <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#features">Discover the features</a>
+          </div>
+          <p class="microcopy">Android · WAV playback · MIDI control</p>
+        </div>
 
-    <p>
-        MagicPlay is a live performance app for musicians.
-        Organize your setlist, play WAV backing tracks,
-        and control MIDI and Art-Net/DMX lighting from your Android device.
-    </p>
+        <div class="device-stage" aria-label="Illustration of the MagicPlay concert interface">
+          <div class="float-note note-one"><strong>MIDI actions</strong><small>Ready with your track</small></div>
+          <div class="device">
+            <div class="device-top"><span>9:41</span><span>● ● ●</span></div>
+            <div class="app-title"><strong>MagicPlay</strong><span class="live-pill">Concert</span></div>
+            <div class="track">
+              <div class="track-head"><span>01 &nbsp; Intro</span><span>−1.0 dB</span></div>
+              <div class="track-sub">Backing track</div>
+              <div class="track-line"><span style="width:72%"></span></div>
+            </div>
+            <div class="track">
+              <div class="track-head"><span>02 &nbsp; Mystic Life</span><span>0.0 dB</span></div>
+              <div class="track-sub">WAV · MIDI actions configured</div>
+              <div class="track-line"><span style="width:48%;background:linear-gradient(90deg,#5a8cff,#9bb7ff)"></span></div>
+            </div>
+            <div class="track">
+              <div class="track-head"><span>03 &nbsp; Around the Fire</span><span>+0.5 dB</span></div>
+              <div class="track-sub">Backing track</div>
+              <div class="track-line"><span style="width:60%"></span></div>
+            </div>
+            <div class="midi-row"><div class="midi-chip">MIDI 1<br>Connected</div><div class="midi-chip">MIDI 2<br>Connected</div><div class="midi-chip">MIDI 3<br>Ready</div></div>
+          </div>
+          <div class="float-note note-two"><strong>One setlist</strong><small>Tracks and MIDI in sync</small></div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Built for live performance</h2>
+    <section class="section" id="features">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">The essentials</span>
+          <h2>Less setup.<br>More time for the music.</h2>
+          <p>Build your set around the tools you use on stage, with playback and MIDI actions organised track by track.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon">01</div><h3>Setlist management</h3><p>Organise your songs in performance order and keep the setlist ready for the next show.</p></article>
+          <article class="feature-card"><div class="feature-icon">02</div><h3>WAV backing tracks</h3><p>Play audio tracks from your Android device, with an individual level for each track.</p></article>
+          <article class="feature-card"><div class="feature-icon">03</div><h3>MIDI control</h3><p>Configure Program Change and Control Change messages for compatible MIDI equipment.</p></article>
+          <article class="feature-card"><div class="feature-icon">04</div><h3>Track-linked actions</h3><p>Associate MIDI actions with a song so your gear can change with the setlist.</p></article>
+          <article class="feature-card"><div class="feature-icon">05</div><h3>Concert Mode</h3><p>A performance-focused screen keeps the current track and essential controls easy to reach.</p></article>
+          <article class="feature-card"><div class="feature-icon">06</div><h3>Designed for Android</h3><p>Built around Android, with a dedicated interface for managing and running a live set.</p></article>
+        </div>
+      </div>
+    </section>
 
-    <ul>
-        <li>Setlists and WAV playback</li>
-        <li>Individual track volume</li>
-        <li>MIDI Program Change and Control Change</li>
-        <li>Art-Net / DMX lighting control</li>
-        <li>Scenes, fixtures and groups</li>
-        <li>MIDI and lighting actions associated with tracks</li>
-        <li>Concert Mode</li>
-        <li>Import and export of configurations</li>
-    </ul>
+    <section class="section" id="workflow">
+      <div class="wrap split">
+        <div class="section-heading">
+          <span class="eyebrow">A practical workflow</span>
+          <h2>From rehearsal to stage.</h2>
+          <p>Set up the details before the show, then keep the performance workflow simple.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><span class="step-number">1</span><div><h3>Build your setlist</h3><p>Add your WAV tracks and arrange the songs in the order you want to play them.</p></div></div>
+          <div class="step"><span class="step-number">2</span><div><h3>Configure your MIDI actions</h3><p>Choose the MIDI device and define the Program Change or Control Change messages associated with a track.</p></div></div>
+          <div class="step"><span class="step-number">3</span><div><h3>Play in Concert Mode</h3><p>Run your tracks and adjust the active track level while keeping the setlist close at hand.</p></div></div>
+        </div>
+      </div>
+    </section>
 
-    <p>
-        <a href="support/">Support</a> |
-<a href="privacy/">Privacy Policy</a> |
-<a href="https://github.com/jimbarba/MagicPlay/releases/tag/1.0.0">Download Beta Version</a>
-    </p>
+    <section class="section">
+      <div class="wrap callout">
+        <div><span class="eyebrow">In development</span><h2>Lighting and configuration tools are next.</h2><p>Art-Net / DMX lighting control and configuration import/export are planned for a future update. They are not presented as available features in this beta.</p></div>
+        <a class="button button-secondary" href="https://github.com/jimbarba/MagicPlay">Follow development <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>© 2026 MagicPlay</p>
-    </footer>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="./"><span class="brand-mark">M</span> MagicPlay</a>
+      <div class="footer-links"><a href="support/">Support</a><a href="privacy/">Privacy Policy</a><a href="https://github.com/jimbarba/MagicPlay">GitHub</a></div>
+      <span>© 2026 MagicPlay</span>
+    </div>
+  </footer>
 </body>
 </html>
