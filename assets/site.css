@@ -56,6 +56,14 @@ h3 { font-size: 1.15rem; letter-spacing: -.02em; }
 .button-secondary { border-color: var(--line); background: rgba(255,255,255,.035); color: var(--text); }
 .button-secondary:hover { border-color: rgba(255,255,255,.3); }
 .microcopy { margin-top: 14px; font-size: .82rem; color: #777e8b; }
+
+/* Real Android app screenshot in the homepage hero */
+.screenshot-stage { min-height: 0; padding: 12px 0 24px; }
+.screenshot-stage:before { width: 360px; height: 360px; }
+.app-screenshot { width: min(330px, 82vw); margin: 0; text-align: center; }
+.app-screenshot img { display: block; width: 100%; height: auto; max-height: 690px; object-fit: contain; border: 1px solid rgba(255,255,255,.2); border-radius: 24px; background: #111319; box-shadow: 0 35px 100px rgba(0,0,0,.55), 0 0 0 6px rgba(255,255,255,.025); }
+.app-screenshot figcaption { margin-top: 13px; color: var(--muted); font-size: .78rem; }
+
 .device-stage { min-height: 420px; position: relative; display: grid; place-items: center; isolation: isolate; }
 .device-stage:before { content: ""; position: absolute; width: 310px; height: 310px; border-radius: 50%; background: radial-gradient(circle, rgba(255,75,85,.18), rgba(90,140,255,.09) 52%, transparent 70%); filter: blur(8px); z-index: -1; }
 .device { width: min(290px, 78vw); border: 1px solid rgba(255,255,255,.2); border-radius: 31px; background: linear-gradient(160deg, #20232d, #0e1015 70%); padding: 12px; box-shadow: 0 35px 100px rgba(0,0,0,.55), 0 0 0 6px rgba(255,255,255,.025); transform: rotate(3deg); }
