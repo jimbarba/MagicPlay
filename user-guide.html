@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a0d">
+  <meta name="description" content="A simple user guide for MagicPlay on Android: setlists, WAV playback, track levels and MIDI actions.">
+  <title>User Guide — MagicPlay</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="./" aria-label="MagicPlay home"><span class="brand-mark">M</span> MagicPlay</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="./#features">Features</a>
+        <a href="user-guide.html" aria-current="page">User Guide</a>
+        <a href="support/">Support</a>
+        <a class="nav-cta" href="https://github.com/jimbarba/MagicPlay/releases/tag/1.0.0">Get the beta <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">MagicPlay for Android</span>
+        <h1>User Guide</h1>
+        <p class="lead">The essentials for preparing a setlist, playing WAV backing tracks and using MIDI actions during a live performance.</p>
+      </div>
+    </section>
+
+    <section class="wrap prose">
+      <div class="note">
+        <p><strong>Before you start:</strong> MagicPlay is designed for Android 8.0 or later. Prepare and test your setlist before using the app on stage. Menu wording may vary slightly between beta versions.</p>
+      </div>
+
+      <h2>1. Prepare your setlist</h2>
+      <ol>
+        <li>Open MagicPlay on your Android device.</li>
+        <li>Use the track management screen to import the WAV files you want to use.</li>
+        <li>Check that each track appears in the list and that the order matches your set.</li>
+        <li>Reorder tracks when needed using the list's reorder control.</li>
+      </ol>
+      <p>MagicPlay stores imported audio and track settings in the app. Keep a separate copy of your original audio files.</p>
+
+      <h2>2. Test audio playback</h2>
+      <ol>
+        <li>Select a track and start playback.</li>
+        <li>Listen to the output and confirm that the correct audio is playing.</li>
+        <li>Adjust the track's volume to match the rest of your set.</li>
+        <li>Stop playback and start the track again to confirm that everything behaves as expected.</li>
+      </ol>
+      <p>Track volume settings are saved, so your levels are retained when you leave the screen or restart the app.</p>
+
+      <h2>3. Use Concert Mode</h2>
+      <p>Concert Mode is the performance screen. It gives you quick access to the active track, playback controls, its volume and the MIDI connection status.</p>
+      <ul>
+        <li>Check the current track before starting playback.</li>
+        <li>Use the playback controls to start or stop the track.</li>
+        <li>Adjust the active track's level as needed during the show.</li>
+        <li>Check the MIDI status indicators before relying on MIDI actions.</li>
+      </ul>
+      <p>Keep MagicPlay in the foreground during a performance. Avoid leaving the app or force-stopping it while playing.</p>
+
+      <h2>4. Set up MIDI</h2>
+      <ol>
+        <li>Connect a compatible MIDI device using USB or Bluetooth, as supported by your Android device and MIDI interface.</li>
+        <li>Open the MIDI configuration screen and select or configure the device.</li>
+        <li>Define the MIDI messages you need, such as Program Change (PC) or Control Change (CC), including the relevant channel and values.</li>
+        <li>Save the settings and check that the device is shown as connected.</li>
+      </ol>
+      <p>Connection availability depends on the MIDI interface, Android device, Bluetooth pairing and required Android permissions. Test the complete connection before the show.</p>
+
+      <h2>5. Attach MIDI actions to a track</h2>
+      <ol>
+        <li>Open the settings for the relevant track.</li>
+        <li>Enable MIDI for that track if the option is available.</li>
+        <li>Add or select the MIDI messages that should be sent for the track.</li>
+        <li>Save the changes, then play the track and verify that the connected equipment responds as expected.</li>
+      </ol>
+      <p>MagicPlay can send configured MIDI actions during track playback. Always test the messages with your equipment before a live performance.</p>
+
+      <h2>6. Before going on stage</h2>
+      <ul>
+        <li>Import and test every WAV track.</li>
+        <li>Check the setlist order and individual track levels.</li>
+        <li>Connect MIDI equipment and verify the connection status.</li>
+        <li>Test every MIDI action with the instrument or processor it controls.</li>
+        <li>Keep your Android device charged and use a reliable audio connection.</li>
+      </ul>
+
+      <h2>7. Current beta limitations</h2>
+      <p>Art-Net / DMX lighting control and configuration import/export are planned for a future update and are not available in this version.</p>
+
+      <h2>Need help?</h2>
+      <p>If something does not work, note your Android device model, Android version, the MIDI interface you are using and the steps that reproduce the problem. Visit the <a href="support/">Support page</a> or report the issue through <a href="https://github.com/jimbarba/MagicPlay/issues">GitHub Issues</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="./"><span class="brand-mark">M</span> MagicPlay</a>
+      <div class="footer-links"><a href="user-guide.html">User Guide</a><a href="support/">Support</a><a href="privacy/">Privacy Policy</a><a href="https://github.com/jimbarba/MagicPlay">GitHub</a></div>
+      <span>© 2026 MagicPlay</span>
+    </div>
+  </footer>
+</body>
+</html>
