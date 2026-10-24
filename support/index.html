@@ -1,61 +1,50 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MagicPlay Support</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090a0d">
+  <meta name="description" content="Help and support for MagicPlay on Android.">
+  <title>Support — MagicPlay</title>
+  <link rel="stylesheet" href="../assets/site.css">
 </head>
 <body>
-    <h1>MagicPlay Support</h1>
+  <header class="site-header"><div class="wrap nav">
+    <a class="brand" href="../"><span class="brand-mark">M</span> MagicPlay</a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="../#features">Features</a><a href="./">Support</a><a href="../privacy/">Privacy</a><a class="nav-cta" href="https://github.com/jimbarba/MagicPlay/issues">Get help <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main>
+    <section class="page-hero"><div class="wrap">
+      <span class="eyebrow">Help centre</span>
+      <h1>Support</h1>
+      <p class="lead">Find practical guidance for setting up MagicPlay and troubleshooting your live-performance workflow.</p>
+    </div></section>
+    <section class="wrap prose">
+      <div class="note"><p><strong>Need help with a specific issue?</strong></p><p>Open an issue on the project's GitHub page. Include the MagicPlay version, your Android device and Android version, the steps that led to the problem, and any error message you saw. Do not include passwords or private information.</p><a class="button button-primary" href="https://github.com/jimbarba/MagicPlay/issues">Contact support via GitHub <span aria-hidden="true">↗</span></a></div>
 
-    <h2>Getting started</h2>
+      <h2>Getting started</h2>
+      <ul>
+        <li>Create a setlist and add your WAV audio tracks.</li>
+        <li>Adjust each track's level before the performance.</li>
+        <li>Open the MIDI configuration to connect compatible equipment and define MIDI actions.</li>
+        <li>Use Concert Mode for playback during your set.</li>
+      </ul>
 
-    <p>
-        Create or import your setlist, add your WAV tracks,
-        adjust individual track levels, and use Concert Mode
-        during your performance.
-    </p>
+      <h2>MIDI setup</h2>
+      <p>MagicPlay supports MIDI Program Change and Control Change actions. Check that your MIDI device is powered on, available to Android, and selected in MagicPlay. If a device does not connect, note whether it uses USB or Bluetooth MIDI and describe what the app displays.</p>
 
-    <h2>MIDI</h2>
+      <h2>Audio playback</h2>
+      <p>Use supported WAV files and confirm that the device's audio output is connected as expected. If playback behaves unexpectedly, report the file format, the track involved, and the steps needed to reproduce the issue.</p>
 
-    <p>
-        MagicPlay can send MIDI Program Change and Control Change
-        messages to compatible MIDI devices.
-        MIDI actions can be associated with tracks and triggered
-        as part of your setlist.
-    </p>
+      <h2>Features in development</h2>
+      <p>Art-Net / DMX lighting control and configuration import/export are planned features and are not available in the current beta described on this website. The feature list will be updated as they become available.</p>
 
-    <h2>Lighting</h2>
-
-    <p>
-        MagicPlay can control compatible lighting equipment through
-        Art-Net / DMX. Fixtures, groups and scenes can be configured
-        and associated with tracks.
-    </p>
-
-    <h2>Import and export</h2>
-
-    <p>
-        Use the configuration import and export features to move
-        your MagicPlay setup between supported devices or keep
-        a backup of your configuration.
-    </p>
-
-    <h2>Need help?</h2>
-
-    <p>
-        If you encounter a problem, please provide the MagicPlay
-        version, your iPhone or iPad model, iOS/iPadOS version,
-        and a description of the issue.
-    </p>
-
-    <p>
-        <a href="../">MagicPlay</a> |
-        <a href="../privacy/">Privacy Policy</a>
-    </p>
-
-    <footer>
-        <p>© 2026 MagicPlay</p>
-    </footer>
+      <h2>Project and updates</h2>
+      <p>Follow development, review the source repository, or check for beta releases on GitHub.</p>
+      <p><a href="https://github.com/jimbarba/MagicPlay">MagicPlay on GitHub ↗</a></p>
+      <p><a href="../">← Back to MagicPlay</a></p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="../"><span class="brand-mark">M</span> MagicPlay</a><div class="footer-links"><a href="./">Support</a><a href="../privacy/">Privacy Policy</a><a href="https://github.com/jimbarba/MagicPlay">GitHub</a></div><span>© 2026 MagicPlay</span></div></footer>
 </body>
 </html>
